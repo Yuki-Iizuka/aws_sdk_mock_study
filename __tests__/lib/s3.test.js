@@ -1,4 +1,4 @@
-const fetchBucketNames = require('./s3');
+const fetchBucketNames = require('../../lib/s3');
 
 // initialize AWS mock
 const aws = require('aws-sdk');
